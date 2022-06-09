@@ -2,7 +2,14 @@
   margin: 0;
   padding: 0;
 }
+body {
+  position: relative;
+  width: 1920px;
+  height: 9101px;
+  background: #f9f7f4;
+}
 header {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -13,6 +20,15 @@ header {
 
   background-image: url(./image/header-img.png);
   background-size: contain;
+}
+content {
+  position: absolute;
+  top: 831px;
+  width: 1920px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .nav {
   display: flex;
@@ -82,9 +98,30 @@ header {
 .p-small {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 17px;
   line-height: 142%;
+}
+.p-big {
+  font-family: "Roboto-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+}
+.h2 {
+  font-family: "Roboto-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 124%;
+}
+.h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 122%;
 }
 .headBottom {
   display: flex;
@@ -136,4 +173,174 @@ header {
   height: 24px;
   color: #1b1f2b;
   letter-spacing: -0.01em;
+}
+.capSelectTour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 35px;
+
+  width: 700px;
+  height: 142px;
+}
+
+.selectTour {
+  width: 473px;
+  height: 73px;
+  color: #1b1f2b;
+
+  text-align: center;
+}
+.windowSelectTour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-top: 135px;
+  gap: 100px;
+  width: 1170px;
+  height: 1334px;
+}
+.elementsTour {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+
+  width: 700px;
+  height: 34px;
+}
+.suggestTour {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+
+  width: 1170px;
+  height: 1092px;
+}
+.cardTour {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+
+  width: 1170px;
+  height: 531px;
+}
+.sizeCard {
+  width: 370px;
+  height: 431px;
+  padding: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 50px;
+}
+.tour1 {
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(./image/card\ tour\ photo-1.jpg);
+  background-size: contain;
+}
+.tour2 {
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(./image/card\ tour\ photo-2.jpg);
+  background-size: contain;
+}
+.tour3 {
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(./image/card\ tour\ photo-3.jpg);
+  background-size: contain;
+}
+.tour4 {
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(./image/card\ tour\ photo-4.jpg);
+  background-size: contain;
+}
+.tour5 {
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(./image/card\ tour\ photo-5.jpg);
+  background-size: contain;
+}
+.tour6 {
+  background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.06) 48.44%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(./image/card\ tour\ photo-6.jpg);
+  background-size: contain;
+}
+.nameTourorPrise {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 240px;
+  height: 126px;
+}
+.nameTour {
+  height: 86px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.PriseTour {
+  width: 270px;
+  height: 24px;
+  color: white;
+}
+.expand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 0px;
+  gap: 15px;
+
+  width: 159px;
+  height: 28px;
+}
+.detailed {
+  width: 120px;
+  height: 28px;
+  color: #ffffff;
+}
+.vectorDet {
+  background-image: url(./image/Vector.svg);
+  width: 22px;
+  height: 15px;
 }
