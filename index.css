@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 1920px;
+  height: 831px;
+
+  background-image: url(./image/header-img.png);
+  background-size: contain;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 214px;
+
+  width: 1920px;
+  height: 88px;
+}
+.nav-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 181.58px;
+
+  width: 1168px;
+  height: 30.24px;
+  color: white;
+}
+.pageName {
+  background-image: url(./image/YourTour.svg);
+  width: 182px;
+  height: 32px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
+  padding-right: 2px;
+  gap: 50px;
+
+  width: 468px;
+  height: 28px;
+}
+.nav_item1 {
+  width: 51px;
+}
+.nav_item2 {
+  width: 114px;
+}
+.nav_item3 {
+  width: 76px;
+}
+.nav_item4 {
+  width: 80px;
+}
+.nav_item5 {
+  width: 155px;
+  height: 28px;
+}
+.p_normal {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  flex: none;
+  color: white;
+}
+.p-small {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 142%;
+}
+.headBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  gap: 50px;
+
+  width: 1920px;
+  height: 743px;
+}
+.head-slogan {
+  width: 768px;
+  height: 317px;
+  font-family: "Roboto-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+  flex: none;
+}
+.head-sign {
+  width: 600px;
+  height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  padding-bottom: 2px;
+}
+.searchTour-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 20px;
+  margin-top: -3px;
+  gap: 10px;
+
+  width: 121px;
+  height: 37px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+.search {
+  width: 78px;
+  height: 24px;
+  color: #1b1f2b;
+  letter-spacing: -0.01em;
+}
