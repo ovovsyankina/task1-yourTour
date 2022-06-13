@@ -1,10 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-body {
-  position: relative;
-  width: 1920px;
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   height: 9101px;
   background: #f9f7f4;
 }
@@ -12,33 +15,27 @@ header {
   position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-
-  width: 1920px;
+  width: 100%;
   height: 831px;
 
   background-image: url(./image/header-img.png);
-  background-size: contain;
+  background-size: cover;
+  order: 0;
 }
 content {
   position: absolute;
   top: 831px;
-  width: 1920px;
-  display: flex;
+  width: 100%;
+  display: inline-block;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 .nav {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 214px;
 
-  width: 1920px;
   height: 88px;
 }
 .nav-title {
@@ -46,47 +43,44 @@ content {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
-  gap: 181.58px;
 
   width: 1168px;
   height: 30.24px;
   color: white;
 }
-.pageName {
+.logo {
   background-image: url(./image/YourTour.svg);
   width: 182px;
   height: 32px;
 }
 .nav-links {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 3px;
-  padding-right: 2px;
-  gap: 50px;
+
+  padding-top: 1px;
 
   width: 468px;
   height: 28px;
 }
 .nav_item1 {
   width: 51px;
+  margin-right: 48px;
 }
 .nav_item2 {
   width: 114px;
+  margin-right: 50px;
 }
 .nav_item3 {
   width: 76px;
+  margin-right: 50px;
 }
 .nav_item4 {
   width: 80px;
 }
-.nav_item5 {
+.phone {
   width: 155px;
   height: 28px;
 }
-.p_normal {
+.p-normal {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -109,6 +103,13 @@ content {
   font-size: 23px;
   line-height: 122%;
 }
+.h1 {
+  font-family: "Roboto-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 110%;
+}
 .h2 {
   font-family: "Roboto-Bold";
   font-style: normal;
@@ -128,23 +129,15 @@ content {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 5px;
-  gap: 50px;
-
-  width: 1920px;
   height: 743px;
 }
 .head-slogan {
   width: 768px;
   height: 317px;
-  font-family: "Roboto-Bold";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 110%;
+
   text-align: center;
   letter-spacing: 0.02em;
-
+  margin-bottom: 50px;
   color: #ffffff;
   flex: none;
 }
@@ -153,15 +146,11 @@ content {
   height: 56px;
   text-align: center;
   letter-spacing: 0.2px;
-  padding-bottom: 2px;
+  margin-bottom: 50px;
 }
 .searchTour-button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 4px 20px;
+  padding: 6px 19px;
   margin-top: -3px;
-  gap: 10px;
 
   width: 121px;
   height: 37px;
@@ -172,18 +161,30 @@ content {
   width: 78px;
   height: 24px;
   color: #1b1f2b;
+  justify-content: center;
   letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+.windowSelectTour {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 135px;
+  margin-left: 375px;
+  width: 61%;
+  height: 1334px;
+  order: 1;
 }
 .capSelectTour {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 35px;
-
   width: 700px;
   height: 142px;
+
+  margin-bottom: 100px;
 }
 
 .selectTour {
@@ -191,52 +192,41 @@ content {
   height: 73px;
   color: #1b1f2b;
 
+  margin-bottom: 35px;
   text-align: center;
-}
-.windowSelectTour {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  margin-top: 135px;
-  gap: 100px;
-  width: 1170px;
-  height: 1334px;
 }
 .elementsTour {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 30px;
-
+  padding-top: 2px;
   width: 700px;
   height: 34px;
 }
+.tour_elem1 {
+  margin-right: 30px;
+}
+.tour_elem2 {
+  margin-right: 30px;
+}
+.tour_elem3 {
+  margin-right: 31px;
+}
+.tour_elem4 {
+  margin-right: 31px;
+}
+.tour_elem5 {
+  margin-right: 0;
+}
 .suggestTour {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 30px;
-
+  flex-direction: row;
   width: 1170px;
   height: 1092px;
+  flex-wrap: wrap;
 }
-.cardTour {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 30px;
 
-  width: 1170px;
-  height: 531px;
-}
 .sizeCard {
   width: 370px;
-  height: 431px;
+  height: 531px;
   padding: 50px;
   flex-direction: column;
   justify-content: space-between;
@@ -252,6 +242,7 @@ content {
     ),
     url(./image/card\ tour\ photo-1.jpg);
   background-size: contain;
+  margin-right: 30px;
 }
 .tour2 {
   background: linear-gradient(
@@ -262,6 +253,7 @@ content {
     ),
     url(./image/card\ tour\ photo-2.jpg);
   background-size: contain;
+  margin-right: 30px;
 }
 .tour3 {
   background: linear-gradient(
@@ -282,6 +274,7 @@ content {
     ),
     url(./image/card\ tour\ photo-4.jpg);
   background-size: contain;
+  margin: 30px 30px 0 0;
 }
 .tour5 {
   background: linear-gradient(
@@ -292,6 +285,7 @@ content {
     ),
     url(./image/card\ tour\ photo-5.jpg);
   background-size: contain;
+  margin: 30px 30px 0 0;
 }
 .tour6 {
   background: linear-gradient(
@@ -302,14 +296,13 @@ content {
     ),
     url(./image/card\ tour\ photo-6.jpg);
   background-size: contain;
+  margin: 30px 0 0 0;
 }
 .nameTourorPrise {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 0px;
-  gap: 16px;
 
   width: 240px;
   height: 126px;
@@ -318,6 +311,7 @@ content {
   height: 86px;
   letter-spacing: 0.5px;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 .PriseTour {
   width: 270px;
@@ -328,19 +322,121 @@ content {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-bottom: 0px;
-  gap: 15px;
-
-  width: 159px;
-  height: 28px;
+  padding-top: 277px;
 }
 .detailed {
   width: 120px;
   height: 28px;
   color: #ffffff;
+  margin-right: 16px;
 }
 .vectorDet {
   background-image: url(./image/Vector.svg);
   width: 22px;
   height: 15px;
+}
+.collectTour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 135px;
+  margin-left: 375px;
+
+  width: 1170px;
+  height: 1245px;
+  order: 2;
+}
+.collectTour_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 458px;
+  height: 159px;
+}
+.collectTour_header-text {
+  width: 458px;
+  height: 73px;
+  text-align: center;
+
+  color: #1b1f2b;
+}
+.collectTour_sign {
+  width: 400px;
+  height: 56px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #a6a6a6;
+}
+.windowFill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 70px;
+  width: 1030px;
+  height: 986px;
+
+  background: #ffffff;
+  border-radius: 50px;
+}
+.filds1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  width: 1030px;
+  height: 104px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 500px;
+  height: 104px;
+}
+.inputFill {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 9px;
+  padding-left: 19px;
+  letter-spacing: 0.2px;
+
+  width: 500px;
+  height: 68px;
+
+  background: #f9f7f4;
+
+  border: 1px solid #f4f0e9;
+  border-radius: 10px;
+
+  color: black;
+}
+.titleFill {
+  width: 500px;
+  height: 28px;
+  font-weight: 700;
+  color: #1b1f2b;
+}
+::placeholder {
+  width: 175px;
+  height: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 142%;
+
+  color: #a6a6a6;
+}
+option {
+  width: 500px;
+  height: 68px;
 }

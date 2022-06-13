@@ -10,44 +10,45 @@
     <link rel="stylesheet" href="fonts/font.css" />
   </head>
   <body>
-    <header>
-      <div class="nav">
-        <div class="nav-title p_normal">
-          <div class="pageName"></div>
-          <div class="nav-links">
-            <p class="nav_item1">Туры</p>
-            <p class="nav_item2">Создать тур</p>
-            <p class="nav_item3">Отзывы</p>
-            <p class="nav_item4">Истории</p>
-          </div>
-          <p class="nav_item5">+7 999 999 99 99</p>
-        </div>
-      </div>
-      <div class="headBottom">
-        <h1 class="head-slogan">Идеальные путешествия существуют</h1>
-        <p class="head-sign p_normal">
-          Идейные соображения высшего порядка, а также рамки и место обучения
-          кадров
-        </p>
-        <button class="searchTour-button">
-          <p class="search p-small">Найти тур</p>
-        </button>
-      </div>
-    </header>
-    <content>
-      <div class="windowSelectTour">
-        <div class="capSelectTour">
-          <h2 class="selectTour h2">Выбери свой тур</h2>
-          <div class="elementsTour p-big">
-            <p>Популярные</p>
-            <p>Авторские</p>
-            <p>Походы</p>
-            <p>Сплавы</p>
-            <p>Велопрогулки</p>
+    <div class="wrapper">
+      <header>
+        <div class="nav">
+          <div class="nav-title p-normal">
+            <div class="logo"></div>
+            <div class="nav-links">
+              <p class="nav_item1">Туры</p>
+              <p class="nav_item2">Создать тур</p>
+              <p class="nav_item3">Отзывы</p>
+              <p class="nav_item4">Истории</p>
+            </div>
+            <p class="phone">+7 999 999 99 99</p>
           </div>
         </div>
-        <div class="suggestTour">
-          <div class="cardTour">
+
+        <div class="headBottom">
+          <h1 class="head-slogan h1">Идеальные путешествия существуют</h1>
+          <p class="head-sign p-normal">
+            Идейные соображения высшего порядка, а также рамки и место обучения
+            кадров
+          </p>
+          <button class="searchTour-button">
+            <p class="search p-small">Найти тур</p>
+          </button>
+        </div>
+      </header>
+      <content>
+        <div class="windowSelectTour">
+          <div class="capSelectTour">
+            <h2 class="selectTour h2">Выбери свой тур</h2>
+            <div class="elementsTour p-big">
+              <p class="tour_elem1">Популярные</p>
+              <p class="tour_elem2">Авторские</p>
+              <p class="tour_elem3">Походы</p>
+              <p class="tour_elem4">Сплавы</p>
+              <p class="tour_elem5">Велопрогулки</p>
+            </div>
+          </div>
+          <div class="suggestTour">
             <div class="tour1 sizeCard">
               <div class="nameTourorPrise">
                 <p class="nameTour h3">Путешествие в горы</p>
@@ -78,9 +79,6 @@
                 <span class="vectorDet"></span>
               </div>
             </div>
-          </div>
-
-          <div class="cardTour">
             <div class="tour4 sizeCard">
               <div class="nameTourorPrise">
                 <p class="nameTour h3">Путешествие в горы</p>
@@ -113,7 +111,36 @@
             </div>
           </div>
         </div>
-      </div>
-    </content>
+        <div class="collectTour">
+          <div class="collectTour_header">
+            <p class="collectTour_header-text h2">Собери свой тур</p>
+            <p class="collectTour_sign p-normal">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров
+            </p>
+          </div>
+          <div class="windowFill">
+            <div class="filds1">
+              <div class="form">
+                <label class="titleFill p-normal">Имя</label>
+                <input
+                  class="inputFill p-normal"
+                  type="text"
+                  placeholder="Введите Ваше имя"
+                />
+              </div>
+              <div class="form">
+                <label class="titleFill p-normal">Направление</label>
+                <select class="inputFill">
+                  <option value="">Выберите пункт</option>
+
+                  <option value="rigatoni">Пункт выбран</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </content>
+    </div>
   </body>
 </html>
