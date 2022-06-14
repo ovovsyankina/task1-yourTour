@@ -120,8 +120,8 @@
             </p>
           </div>
           <div class="windowFill">
-            <div class="filds1">
-              <div class="form">
+            <div class="fildsInput">
+              <div class="form name_fill">
                 <label class="titleFill p-normal">Имя</label>
                 <input
                   class="inputFill p-normal"
@@ -129,14 +129,87 @@
                   placeholder="Введите Ваше имя"
                 />
               </div>
-              <div class="form">
+              <div class="form direction_fill">
                 <label class="titleFill p-normal">Направление</label>
-                <select class="inputFill">
-                  <option value="">Выберите пункт</option>
 
-                  <option value="rigatoni">Пункт выбран</option>
+                <select class="inputFill p-normal dropdown" place>
+                  <option>Куда хотите ехать</option>
+
+                  <option>Пункт выбран</option>
                 </select>
               </div>
+              <div class="form email_fill">
+                <label class="titleFill p-normal">Email</label>
+                <input
+                  class="inputFill p-normal"
+                  type="email"
+                  placeholder="example@mail.com"
+                />
+              </div>
+              <div class="form tel_fill">
+                <label class="titleFill p-normal">Телефон</label>
+                <input
+                  class="inputFill p-normal"
+                  type="tel"
+                  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+                />
+              </div>
+
+              <div class="form dateFrom_fill">
+                <label class="titleFill p-normal">Дата от</label>
+                <input
+                  class="inputFill p-normal"
+                  type="text"
+                  placeholder="ДД.ММ.ГГГГ"
+                />
+              </div>
+              <div class="form dateBefore_fill">
+                <label class="titleFill p-normal">Дата до</label>
+                <input
+                  class="inputFill p-normal"
+                  type="text"
+                  placeholder="ДД.ММ.ГГГГ"
+                />
+              </div>
+            </div>
+            <div class="comment_fill">
+              <label class="titleFill p-normal">Комментарий</label>
+              <input class="comment_inputFill p-normal" type="text" />
+            </div>
+            <div class="age_fill">
+              <div class="titleFill p-normal">Вам есть 18 лет?</div>
+
+              <div class="age_button">
+                <div class="yes_age">
+                  <input class="button_age" name="age" type="radio" id="yes" />
+                  <label for="yes" class="approval p-normal">Да</label>
+                </div>
+
+                <div class="no_age">
+                  <input class="button_age" name="age" type="radio" id="no" />
+                  <label for="no" class="approval p-normal">Нет</label>
+                </div>
+              </div>
+            </div>
+            <div class="licensedContract">
+              <input
+                class="button_contract"
+                name="contract"
+                type="checkbox"
+                id="yes1"
+              />
+              <label for="yes1" class="contract p-small"
+                >Нажимая кнопку, я принимаю условия
+                <p class="black_text">Лицензионного договора</p></label
+              >
+            </div>
+            <div class="searchOrReset_tour">
+              <button class="search_tour">
+                <p class="search_tour-text p-normal">Найти тур</p>
+              </button>
+              <button class="reset_tour">
+                <p class="reset_tour-text p-normal">Сбросить</p>
+              </button>
             </div>
           </div>
         </div>
