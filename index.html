@@ -132,8 +132,8 @@
               <div class="form direction_fill">
                 <label class="titleFill p-normal">Направление</label>
 
-                <select class="inputFill p-normal dropdown" place>
-                  <option>Куда хотите ехать</option>
+                <select class="inputFill p-normal dropdown" required>
+                  <option selected>Куда хотите ехать</option>
 
                   <option>Пункт выбран</option>
                 </select>
@@ -200,7 +200,7 @@
               />
               <label for="yes1" class="contract p-small"
                 >Нажимая кнопку, я принимаю условия
-                <p class="black_text">Лицензионного договора</p></label
+                <span class="black_text">Лицензионного договора</span></label
               >
             </div>
             <div class="searchOrReset_tour">
@@ -374,9 +374,8 @@
               Пора в путешествие вместе с нами!
             </div>
             <div class="contact_mail p-normal">
-              Напиши на почту и узнай подробности на<span class="black_text"
-                >yourtour@gmail.com</span
-              >
+              Напиши на почту и узнай подробности на
+              <span class="black_text">yourtour@gmail.com</span>
             </div>
           </div>
         </div>
@@ -385,11 +384,18 @@
         <div class="social_network">
           <div class="slogan_social p-normal">Наши социальные сети</div>
           <div class="social_network-icon">
-            <p class="icon_inst"></p>
-
-            <p class="icon_face"></p>
-
-            <p class="icon_vk"></p>
+            <div class="social_inst p-normal">
+              <div class="icon_inst"></div>
+              <p>instagram</p>
+            </div>
+            <div class="social_face p-normal">
+              <div class="icon_face"></div>
+              <p>facebook</p>
+            </div>
+            <div class="social_vk p-normal">
+              <div class="icon_vk"></div>
+              <p>vkontakte</p>
+            </div>
           </div>
         </div>
       </footer>
