@@ -6,3 +6,6 @@ document.addEventListener("scroll", function () {
     header.classList.remove("fixed_menu");
   }
 });
+if (document.documentElement.clientWidth < 1024) {
+  element.classList.remove("hover");
+}

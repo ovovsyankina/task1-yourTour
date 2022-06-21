@@ -10,15 +10,13 @@ body {
 .wrapper {
   display: flex;
   position: relative;
-  transition: 0.5s ease-in-out;
-
   width: 100%;
-  height: 9101px;
   background: #f9f7f4;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 header {
-  position: absolute;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -31,17 +29,14 @@ header {
   background-position: center center;
 }
 content {
-  position: absolute;
-  top: 831px;
   width: 100%;
   display: inline-block;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 135px;
 }
 footer {
-  position: absolute;
-  bottom: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -462,15 +457,13 @@ footer {
 
   color: #a6a6a6;
 }
-select {
-  color: #1b1f2b;
-}
-select:invalid {
+
+.dropdown:invalid {
   color: #a6a6a6;
 }
 
 .dropdown {
-  color: #a6a6a6;
+  color: #1b1f2b;
   font-weight: 400;
 
   appearance: none;
@@ -479,6 +472,7 @@ select:invalid {
   outline: 0;
   background-color: #f9f7f4;
 }
+
 .comment_fill {
   display: flex;
   flex-direction: column;
@@ -1192,14 +1186,14 @@ li::marker {
 }
 .inputFill:hover,
 .comment_inputFill:hover {
-  background: #f4f0e9;
+  background-color: #f4f0e9;
   border: 1px solid #f4f0e9;
   cursor: pointer;
 }
 .inputFill:focus,
 .comment_inputFill:focus {
   outline: none;
-  background: #f4f0e9;
+  background-color: #f4f0e9;
   border: 1px solid #a6a6a6;
 }
 .search_tour:hover {
@@ -1482,9 +1476,7 @@ li::marker {
   footer {
     width: 100%;
   }
-  .wrapper {
-    height: 9785px;
-  }
+
   .social_network {
     width: 89.7%;
   }
