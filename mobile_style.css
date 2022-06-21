@@ -1,4 +1,7 @@
 @media screen and (max-width: 1005px) {
+  .stories_foto-header {
+    width: 100%;
+  }
   .head-slogan {
     width: 100%;
   }
@@ -135,6 +138,7 @@
   .searchOrReset_tour {
     width: 480px;
   }
+
   .feedback {
     height: 1650px;
     justify-content: space-between;
@@ -381,6 +385,42 @@
     width: 100%;
     height: 1254px;
     margin-top: 75px;
+  }
+  .tour2 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour2_360.png);
+  }
+  .tour3 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour3_360.png);
+  }
+  .tour5 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour5_360.png);
+  }
+  .tour6 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour6_360.png);
   }
   .collectTour_header {
     width: 318px;
@@ -686,6 +726,30 @@
     margin: 0;
     padding: 0;
   }
+  .travel_stories1 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story1_360.png);
+  }
+  .travel_stories2 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story2_360.png);
+  }
+  .travel_stories3 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story3_360.png);
+  }
   .stories_foto-slogan ul {
     margin-left: 22px;
     margin-top: 24px;
@@ -711,5 +775,11 @@
   .travel_stories2,
   .travel_stories3 {
     margin-top: 20px;
+  }
+  .fixed_menu .logo {
+    background-image: url(./image/logo_fix-menu-mobile.svg);
+  }
+  .fixed_menu .phone {
+    font-size: 16px;
   }
 }

@@ -931,7 +931,7 @@ select:invalid {
   letter-spacing: 0.4px;
 }
 .stories_foto-slogan {
-  width: 100%;
+  width: 554px;
   height: 224px;
   color: #ffffff;
   margin-top: 35px;
@@ -1350,7 +1350,41 @@ li::marker {
     width: 100%;
     justify-content: space-between;
   }
-  .contact {
+  .tour2 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour2_1024.png);
+  }
+  .tour3 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour3_1024.png);
+  }
+  .tour5 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour5_1024.png);
+  }
+  .tour6 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour6_1024.png);
   }
   .button_contract + label::before {
     margin-right: 11px;
@@ -1397,6 +1431,30 @@ li::marker {
   .size_row2 {
     width: 23.5%;
   }
+  .travel_stories1 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story1_1024.png);
+  }
+  .travel_stories2 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story2_1024.png);
+  }
+  .travel_stories3 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story3_1024.png);
+  }
   .foto_travel-all {
     width: 100%;
     padding: 0px 20px;
@@ -1436,4 +1494,26 @@ li::marker {
   .feedback_tour {
     width: 100%;
   }
+}
+.fixed_menu {
+  position: fixed;
+  background: rgba(243, 239, 232, 0.6);
+  backdrop-filter: blur(54px);
+  background-position: top;
+  z-index: 100;
+}
+.fixed_menu .logo {
+  background-image: url(./image/logo_fix-menu.svg);
+}
+.fixed_menu .nav-links {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 142%;
+}
+.fixed_menu .phone {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 142%;
 }
