@@ -1,0 +1,715 @@
+@media screen and (max-width: 1005px) {
+  .head-slogan {
+    width: 100%;
+  }
+  .feedback_text {
+    font-size: 20px;
+  }
+  .social_network-icon {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 951px) {
+  .windowFill {
+    padding: 30px;
+  }
+  .capSelectTour {
+    width: 90%;
+  }
+  .sizeCard {
+    padding: 40px;
+  }
+  .nameTourorPrise {
+    width: 230px;
+    height: 126px;
+  }
+  .expand {
+    margin-top: 277px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .wrapper {
+    height: 9200px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .sizeCard {
+    padding: 35px;
+    height: 400px;
+  }
+  .windowSelectTour {
+    height: 1500px;
+  }
+  .suggestTour {
+    height: 1300px;
+  }
+  .expand {
+    margin-top: 180px;
+  }
+  .contract-text {
+    font-size: 15px;
+  }
+  .feedback_size {
+    padding: 25px;
+    height: 800px;
+  }
+  .feedback_name {
+    font-size: 30px;
+  }
+  .feedback_tour {
+    font-size: 16px;
+  }
+  .contact_yourTour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 75px;
+    justify-content: center;
+    width: 100%;
+    height: 285px;
+  }
+  .contact-tour {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    margin: 0;
+    width: 360px;
+    height: 370px;
+    flex-wrap: wrap;
+  }
+  .contact_yourTour-foto {
+    width: 130px;
+    height: 133px;
+    background-image: url(./image/contact_mobile.png);
+  }
+  .contact {
+    width: 291px;
+    height: 122px;
+
+    margin: 0;
+  }
+  .contact_slogan {
+    width: 291px;
+    height: 56px;
+    font-size: 23px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 1.3px;
+  }
+  .contact_mail {
+    width: 293px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 142%;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .wrapper {
+    height: 9800px;
+  }
+  .head-slogan {
+    font-size: 76px;
+  }
+  .header_feedback {
+    width: 500px;
+  }
+  .foto_travel-head {
+    width: 500px;
+  }
+  .elementsTour {
+    font-size: 20px;
+  }
+  .nameTour {
+    font-size: 30px;
+  }
+  .nameTourorPrise {
+    width: 200px;
+    height: 110px;
+  }
+  .searchOrReset_tour {
+    width: 480px;
+  }
+  .feedback {
+    height: 1650px;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  .feedback_people {
+    justify-content: center;
+    height: 1400px;
+  }
+  .feedback_size {
+    width: 450px;
+    height: 641px;
+    padding: 40px;
+  }
+  .feedback_name {
+    font-size: 35px;
+  }
+  .feedback_tour {
+    font-size: 17px;
+  }
+  .social_network-picture1,
+  .social_network-picture2,
+  .social_network-picture3 {
+    display: none;
+  }
+  footer {
+    padding: 21px;
+
+    width: 100%;
+    height: 85px;
+  }
+  .social_network {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 318px;
+    height: 85px;
+  }
+  .slogan_social {
+    width: 178px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+    margin-top: 13px;
+  }
+  .social_network-icon {
+    text-align: center;
+    width: 300px;
+    height: 23px;
+    margin: 0;
+    margin-top: 8px;
+  }
+  .social_inst {
+    width: 97px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+    margin-right: 17px;
+  }
+  .social_inst p {
+    width: 72px;
+    height: 23px;
+  }
+
+  .icon_inst {
+    background: url(./image/inst_mobile.svg);
+    width: 11px;
+    height: 12px;
+    margin-right: 7px;
+  }
+  .social_face {
+    width: 92px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+    margin-right: 8px;
+  }
+  .social_face p {
+    width: 67px;
+    height: 23px;
+  }
+  .icon_face {
+    background: url(./image/face_mobile.svg);
+    margin-right: 7px;
+    width: 7px;
+    height: 14px;
+  }
+  .social_vk {
+    width: 95px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .social_vk p {
+    width: 70px;
+    height: 23px;
+  }
+  .icon_vk {
+    background: url(./image/vk_mobile.svg);
+    margin-right: 7px;
+    width: 16px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper {
+    height: 8174px;
+  }
+  header {
+    width: 100%;
+    height: 488px;
+  }
+  .headBottom {
+    width: 100%;
+    height: 400px;
+  }
+  .logo {
+    background-image: url(./image/YourTour_mobile.svg);
+    width: 133px;
+    height: 22px;
+  }
+  .phone {
+    width: 124px;
+    height: 23px;
+    margin-bottom: 2px;
+    font-size: 16px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-title {
+    width: 320px;
+  }
+  .nav {
+    width: 100%;
+    justify-content: center;
+  }
+  .head-slogan {
+    width: 360px;
+    height: 114px;
+    margin-bottom: 40px;
+    font-size: 34px;
+    line-height: 112%;
+  }
+  .head-sign {
+    width: 310px;
+    height: 69px;
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+  .searchTour-button {
+    width: 114px;
+    height: 33px;
+    padding: 5px 18px;
+  }
+  .search {
+    font-size: 16px;
+  }
+  content {
+    width: 100%;
+    top: 488px;
+  }
+  .windowSelectTour {
+    width: 100%;
+    height: 2172px;
+    margin-top: 75px;
+  }
+  .capSelectTour {
+    width: 360px;
+    height: 124px;
+    margin-bottom: 50px;
+  }
+  .selectTour {
+    width: 285px;
+    height: 38px;
+    font-size: 34px;
+    line-height: 112%;
+    margin-bottom: 30px;
+    letter-spacing: 0.02em;
+  }
+  .elementsTour {
+    width: 320px;
+    height: 56px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .tour_elem1,
+  .tour_elem2,
+  .tour_elem4 {
+    margin-right: 10px;
+  }
+  .tour_elem1 {
+    height: 22px;
+  }
+  .tour_elem4,
+  .tour_elem5 {
+    margin-top: 8px;
+  }
+  .suggestTour {
+    width: 318px;
+    height: 1998px;
+  }
+  .sizeCard {
+    width: 318px;
+    height: 318px;
+    border-radius: 20px;
+    padding: 25px;
+    padding-top: 30px;
+  }
+  .nameTourorPrise {
+    width: 268px;
+    height: 60px;
+  }
+  .nameTour {
+    font-size: 23px;
+    line-height: 120%;
+    width: 268px;
+    margin-bottom: 14px;
+    letter-spacing: 0.06em;
+  }
+  .PriseTour {
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .expand {
+    margin-top: 179px;
+  }
+  .detailed {
+    width: 84px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .sizeCard:hover,
+  .size_stories:hover {
+    transform: scale(1);
+  }
+  .collectTour {
+    width: 100%;
+    height: 1254px;
+    margin-top: 75px;
+  }
+  .collectTour_header {
+    width: 318px;
+    height: 104px;
+    margin-bottom: 40px;
+  }
+  .collectTour_header-text {
+    width: 318px;
+    height: 38px;
+    font-size: 34px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+  .slogan {
+    width: 318px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 142%;
+    margin-top: 20px;
+  }
+  .windowFill {
+    width: 318px;
+    height: 1110px;
+    border-radius: 30px;
+    padding: 20px 20px 40px;
+  }
+  .fildsInput {
+    height: 594px;
+  }
+  .form {
+    width: 278px;
+    height: 74px;
+  }
+  .titleFill {
+    width: 278px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+    margin-bottom: 6px;
+  }
+  .inputFill {
+    width: 278px;
+    height: 43px;
+    font-size: 16px;
+    line-height: 142%;
+    padding-left: 9px;
+  }
+  ::placeholder {
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .dropdown {
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 142%;
+    background-position-x: calc(100% - 14px);
+    background-position-y: calc(100% - 10px);
+  }
+  .direction_fill,
+  .tel_fill,
+  .dateBefore_fill,
+  .dateFrom_fill {
+    margin-top: 30px;
+  }
+  .comment_fill {
+    margin-top: 33px;
+    margin-bottom: 0;
+    padding-top: 0;
+    width: 278px;
+    height: 163px;
+  }
+  .comment_inputFill {
+    width: 278px;
+    height: 132px;
+  }
+  .age_fill {
+    margin-top: 32px;
+    width: 278px;
+    height: 54px;
+  }
+  .approval {
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .age_button {
+    width: 139px;
+    height: 23px;
+    margin: 0;
+  }
+  .button_age + label::before {
+    width: 16px;
+    height: 16px;
+  }
+
+  .button_age:checked + label::before {
+    background-image: url(./image/Ellipse\ 2_mobile.svg);
+  }
+  .licensedContract {
+    width: 278px;
+    height: 69px;
+
+    margin-top: 30px;
+  }
+  .contract {
+    font-size: 15px;
+    line-height: 142%;
+    width: 278px;
+    height: 69px;
+  }
+  .button_contract + label::before {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 45px;
+  }
+
+  .button_contract:checked + label::before {
+    background-image: url(./image/check_mobile.svg);
+  }
+  .black_text-contract {
+    margin-left: 0;
+  }
+
+  .contract-text {
+    display: block;
+    width: 248px;
+    height: 69px;
+
+    font-size: 16px;
+    line-height: 142%;
+    margin-top: 4px;
+    letter-spacing: 0.1px;
+  }
+  .search_tour,
+  .reset_tour {
+    width: 134px;
+    height: 47px;
+  }
+  .search_tour-text {
+    width: 75px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .reset_tour-text {
+    width: 72px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .searchOrReset_tour {
+    width: 278px;
+    height: 47px;
+    margin-top: 32px;
+  }
+  .feedback {
+    width: 100%;
+    height: 1210px;
+    margin-top: 75px;
+  }
+  .head_feedback {
+    width: 100%;
+    height: 142px;
+  }
+  .header_feedback {
+    width: 318px;
+    height: 76px;
+    font-size: 34px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+  .feedback_people {
+    width: 318px;
+    height: 1018px;
+    margin-top: 50px;
+  }
+  .feedback_size {
+    padding: 20px;
+
+    width: 318px;
+    height: 408px;
+    border-radius: 20px;
+  }
+  .feedback_text {
+    width: 270px;
+    font-size: 16px;
+    line-height: 144%;
+  }
+  .feedback_people1 {
+    height: 408px;
+  }
+  .feedback_people2 {
+    height: 592px;
+  }
+  .feedback_infoName {
+    padding: 0;
+    width: 278px;
+    height: 115px;
+  }
+  .feedback_nameOrTour {
+    width: 203px;
+    height: 59px;
+  }
+  .feedback_name {
+    width: 203px;
+    height: 28px;
+    font-size: 23px;
+    line-height: 120%;
+
+    letter-spacing: 0.04em;
+  }
+  .feedback_tour {
+    width: 203px;
+    height: 23px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .foto_travel {
+    width: 100%;
+    height: 558px;
+    margin-top: 75px;
+  }
+  .foto_travel-head {
+    width: 360px;
+    height: 142px;
+  }
+  .foto_travel-all {
+    width: 318px;
+    height: 366px;
+    margin-top: 50px;
+    padding: 0;
+  }
+  .foto_tour3,
+  .foto_tour6,
+  .foto_tour12 {
+    display: none;
+  }
+  .size_row1 {
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+  }
+  .size_row2 {
+    width: 99.33px;
+    height: 110px;
+    border-radius: 20px;
+  }
+  .foto_tour11 {
+    width: 155px;
+    background-image: url(./image/image\ 11_mobile.png);
+  }
+  .foto_tour10 {
+    width: 155px;
+    background-image: url(./image/image\ 10_mobile.png);
+  }
+  .foto_tour9 {
+    background-image: url(./image/image\ 9_mobile.png);
+  }
+  .foto_tour8 {
+    background-image: url(./image/image\ 8_mobile.png);
+  }
+  .travel_stories {
+    width: 100%;
+    height: 1597px;
+    margin-top: 75px;
+  }
+  .travel_stories-head {
+    width: 360px;
+    height: 142px;
+  }
+  .travel_stories-body {
+    width: 318px;
+    height: 1405px;
+    margin-top: 50px;
+  }
+  .size_stories {
+    width: 318px;
+    height: 455px;
+    padding: 30px 30px 39px 30px;
+
+    border-radius: 20px;
+  }
+  .stories_foto-header {
+    width: 153px;
+    height: 56px;
+    font-size: 23px;
+    line-height: 120%;
+    letter-spacing: 0.06em;
+  }
+  .stories_foto-slogan {
+    width: 263px;
+    height: 230px;
+    font-size: 16px;
+    line-height: 143%;
+    margin-top: 20px;
+  }
+  .travel_stories-top {
+    padding: 0;
+  }
+  .travel_stories-bottom {
+    width: 123px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+  }
+  .stories_foto-slogan ul {
+    margin-left: 22px;
+    margin-top: 24px;
+  }
+  .li_store {
+    font-size: 16px;
+    line-height: 142%;
+    padding-left: 2px;
+  }
+  li::marker {
+    font-size: 10px;
+  }
+  .social_network-picture1,
+  .social_network-picture2,
+  .social_network-picture3 {
+    display: none;
+  }
+  .expand1 {
+    font-size: 16px;
+    line-height: 142%;
+    margin-top: 72px;
+  }
+  .travel_stories2,
+  .travel_stories3 {
+    margin-top: 20px;
+  }
+}

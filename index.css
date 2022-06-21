@@ -8,11 +8,10 @@ body {
   width: 100%;
 }
 .wrapper {
+  display: flex;
   position: relative;
   transition: 0.5s ease-in-out;
-  /* position: relative;
-  display: flex;
-  justify-content: center; */
+
   width: 100%;
   height: 9101px;
   background: #f9f7f4;
@@ -52,16 +51,15 @@ footer {
   width: 100%;
   height: 88px;
 
-  /* Beige 200 */
-
   background: #f4f0e9;
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+
+  justify-content: center;
   align-content: space-between;
   align-items: center;
-
+  width: 100%;
   height: 88px;
 }
 .nav-title {
@@ -69,7 +67,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+  width: 1168px;
   height: 30.24px;
 }
 .logo {
@@ -79,7 +77,7 @@ footer {
 }
 .nav-links {
   display: flex;
-
+  justify-content: space-between;
   padding-top: 1px;
 
   width: 468px;
@@ -87,16 +85,13 @@ footer {
 }
 .nav_item1 {
   width: 51px;
-  margin-right: 48px;
 }
 
 .nav_item2 {
   width: 114px;
-  margin-right: 50px;
 }
 .nav_item3 {
   width: 76px;
-  margin-right: 50px;
 }
 .nav_item4 {
   width: 80px;
@@ -333,6 +328,7 @@ footer {
   letter-spacing: 0.5px;
   color: #ffffff;
   margin-bottom: 16px;
+  width: 240px;
 }
 .PriseTour {
   width: 270px;
@@ -676,13 +672,12 @@ select:invalid {
 }
 .feedback {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 135px;
   width: 100%;
   height: 1005px;
-  flex-wrap: wrap;
   align-content: space-between;
 }
 .head_feedback {
@@ -725,6 +720,7 @@ select:invalid {
 }
 .feedback_infoName {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   align-items: flex-end;
   padding: 70px 0px 0px;
@@ -926,19 +922,19 @@ select:invalid {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 60px 0px 0px 60px;
+  padding: 60px 60px 0px 60px;
 }
 .stories_foto-header {
-  width: 580px;
+  width: 100%;
   height: 43px;
   color: #ffffff;
   letter-spacing: 0.4px;
 }
 .stories_foto-slogan {
-  width: 554px;
+  width: 100%;
   height: 224px;
   color: #ffffff;
-  margin-top: 37px;
+  margin-top: 35px;
   letter-spacing: 0.2px;
 }
 .stories_foto-slogan ul {
@@ -1272,733 +1268,172 @@ li::marker {
   .size_row2 {
     width: 18%;
   }
-
-  @media screen and (max-width: 1170px) {
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      width: 100%;
-    }
-    .nav-title {
-      width: 910px;
-    }
-    .nav_item1 {
-      margin-right: 28px;
-    }
-
-    .nav_item2 {
-      margin-right: 30px;
-    }
-    .nav_item3 {
-      margin-right: 30px;
-    }
-
-    .nav-links {
-      width: 408px;
-    }
-    .head-sign {
-      width: 442px;
-    }
-    .windowSelectTour {
-      width: 100%;
-      height: 1871px;
-
-      margin-left: 0;
-    }
-    .suggestTour {
-      width: 918px;
-      height: 1629px;
-    }
-    .sizeCard {
-      width: 450px;
-    }
-    .expand {
-      margin-top: 320px;
-    }
-    .collectTour {
-      width: 100%;
-      height: 1225px;
-      margin-left: 0;
-    }
-    .windowFill {
-      width: 918px;
-      height: 966px;
-      padding: 60px;
-    }
-    .inputFill,
-    .form {
-      width: 389px;
-    }
-    .licensedContract {
-      width: 546px;
-    }
-    .button_contract + label::before {
-      margin-right: 11px;
-    }
-    .comment_inputFill,
-    .comment_fill,
-    .age_fill {
-      width: 798px;
-    }
-    .feedback {
-      width: 100%;
-      height: 1173px;
-      margin-left: 0;
-    }
-    .feedback_people {
-      width: 918px;
-      height: 841px;
-    }
-    .feedback_size {
-      width: 450px;
-      height: 841px;
-    }
-
-    .feedback_infoName {
-      width: 370px;
-    }
-    .feedback_nameOrTour {
-      width: 295px;
-      height: 77px;
-    }
-    .foto_travel {
-      width: 100%;
-      height: 1222px;
-    }
-    .foto_tour2,
-    .foto_tour7,
-    .foto_tour13 {
-      display: none;
-    }
-    .size_row1 {
-      width: 314.67px;
-    }
-    .size_row2 {
-      width: 231px;
-    }
-    .foto_travel-all {
-      width: 100%;
-      padding: 0px 20px;
-    }
-    .travel_stories {
-      width: 100%;
-      margin-left: 0;
-    }
-    .travel_stories-body {
-      width: 918px;
-    }
-    .size_stories {
-      width: 918px;
-    }
-    .contact_yourTour {
-      width: 771px;
-      margin-left: 127px;
-      margin-top: 133px;
-    }
-
-    .black_text {
-      padding: 0;
-    }
-    footer {
-      width: 100%;
-    }
-    .wrapper {
-      height: 9785px;
-    }
-    .social_network {
-      width: 918px;
-    }
-    .social_network-icon {
-      margin-left: 287px;
-    }
-  }
 }
-@media screen and (max-width: 360px) {
-  .wrapper {
-    height: 8174px;
+@media screen and (max-width: 1170px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  header {
-    width: 360px;
-    height: 488px;
-  }
-  .headBottom {
-    width: 360px;
-    height: 400px;
-  }
-  .logo {
-    background-image: url(./image/YourTour_mobile.svg);
-    width: 133px;
-    height: 22px;
-  }
-  .phone {
-    width: 124px;
-    height: 23px;
-    margin-bottom: 2px;
-    font-size: 16px;
-  }
-  .nav-links {
-    display: none;
-  }
-  .nav-title {
-    width: 320px;
+  body {
+    width: 100%;
   }
   .nav {
     width: 100%;
-    justify-content: center;
   }
-  .head-slogan {
-    width: 360px;
-    height: 114px;
-    margin-bottom: 40px;
-    font-size: 34px;
-    line-height: 112%;
+  .nav-title {
+    width: 89%;
+  }
+
+  .nav-links {
+    width: 44.8%;
   }
   .head-sign {
-    width: 310px;
-    height: 69px;
-    margin-bottom: 40px;
-    font-size: 16px;
-  }
-  .searchTour-button {
-    width: 114px;
-    height: 33px;
-    padding: 5px 18px;
-  }
-  .search {
-    font-size: 16px;
-  }
-  content {
-    width: 100%;
-    top: 488px;
+    width: 442px;
   }
   .windowSelectTour {
     width: 100%;
-    height: 2172px;
-    margin-top: 75px;
-  }
-  .capSelectTour {
-    width: 360px;
-    height: 124px;
-    margin-bottom: 50px;
-  }
-  .selectTour {
-    width: 285px;
-    height: 38px;
-    font-size: 34px;
-    line-height: 112%;
-    margin-bottom: 30px;
-    letter-spacing: 0.02em;
+    height: 1871px;
+
+    margin-left: 0;
   }
   .elementsTour {
-    width: 320px;
-    height: 56px;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 16px;
-    line-height: 142%;
+    width: 100%;
   }
-  .tour_elem1,
-  .tour_elem2,
-  .tour_elem4 {
-    margin-right: 10px;
-  }
-  .tour_elem1 {
-    height: 22px;
-  }
-  .tour_elem4,
-  .tour_elem5 {
-    margin-top: 8px;
+  .capSelectTour {
+    width: 68.4%;
   }
   .suggestTour {
-    width: 318px;
-    height: 1998px;
+    width: 90%;
+    height: 1629px;
   }
   .sizeCard {
-    width: 318px;
-    height: 318px;
-    border-radius: 20px;
-    padding: 25px;
-    padding-top: 30px;
-  }
-  .nameTourorPrise {
-    width: 268px;
-    height: 60px;
-  }
-  .nameTour {
-    font-size: 23px;
-    line-height: 120%;
-    width: 268px;
-    margin-bottom: 14px;
-    letter-spacing: 0.06em;
-  }
-  .PriseTour {
-    font-size: 16px;
-    line-height: 142%;
+    width: 49%;
   }
   .expand {
-    margin-top: 179px;
+    margin-top: 320px;
   }
-  .detailed {
-    width: 84px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
-  }
-  .sizeCard:hover,
-  .size_stories:hover {
-    transform: scale(1);
+  .sizeCard:hover .expand {
+    margin-top: 320px;
   }
   .collectTour {
     width: 100%;
-    height: 1254px;
-    margin-top: 75px;
-  }
-  .collectTour_header {
-    width: 318px;
-    height: 104px;
-    margin-bottom: 40px;
-  }
-  .collectTour_header-text {
-    width: 318px;
-    height: 38px;
-    font-size: 34px;
-    line-height: 112%;
-    letter-spacing: 0.02em;
-  }
-  .slogan {
-    width: 318px;
-    height: 46px;
-    font-size: 16px;
-    line-height: 142%;
-    margin-top: 20px;
-  }
-  .windowFill {
-    width: 318px;
-    height: 1110px;
-    border-radius: 30px;
-    padding: 20px 20px 40px;
-  }
-  .fildsInput {
-    height: 594px;
-  }
-  .form {
-    width: 278px;
-    height: 74px;
-  }
-  .titleFill {
-    width: 278px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
-    margin-bottom: 6px;
-  }
-  .inputFill {
-    width: 278px;
-    height: 43px;
-  }
-  ::placeholder {
-    font-size: 16px;
-    line-height: 142%;
-  }
-  .direction_fill,
-  .tel_fill,
-  .dateBefore_fill,
-  .dateFrom_fill {
-    margin-top: 30px;
-  }
-  .comment_fill {
-    margin-top: 33px;
-    margin-bottom: 0;
-    padding-top: 0;
-    width: 278px;
-    height: 163px;
-  }
-  .comment_inputFill {
-    width: 278px;
-    height: 132px;
-  }
-  .age_fill {
-    margin-top: 32px;
-  }
-  .approval {
-    font-size: 16px;
-    line-height: 142%;
-  }
-  .age_button {
-    width: 139px;
-    height: 23px;
-    margin: 0;
-  }
-  .button_age + label::before {
-    width: 16px;
-    height: 16px;
-  }
-
-  .button_age:checked + label::before {
-    background-image: url(./image/Ellipse\ 2_mobile.svg);
-  }
-  .licensedContract {
-    width: 278px;
-    height: 69px;
-
-    margin-top: 30px;
-  }
-  .contract {
-    font-size: 15px;
-    line-height: 142%;
-    width: 278px;
-    height: 69px;
-  }
-  .button_contract + label::before {
-    width: 16px;
-    height: 16px;
-    margin-bottom: 45px;
-  }
-
-  .button_contract:checked + label::before {
-    background-image: url(./image/check_mobile.svg);
-  }
-  .black_text-contract {
+    height: 1225px;
     margin-left: 0;
   }
+  .nameTourorPrise {
+    width: 350px;
+    height: 83px;
+  }
+  .nameTour {
+    width: 100%;
+  }
+  .windowFill {
+    width: 89.7%;
+    height: 966px;
+    padding: 60px;
+  }
+  .fildsInput {
+    width: 100%;
+  }
 
-  .contract-text {
-    display: block;
-    width: 248px;
-    height: 69px;
-
-    font-size: 16px;
-    line-height: 142%;
-    margin-top: 4px;
-    letter-spacing: 0.1px;
+  .form {
+    width: 48.8%;
   }
-  .search_tour,
-  .reset_tour {
-    width: 134px;
-    height: 47px;
+  .inputFill {
+    width: 100%;
   }
-  .search_tour-text {
-    width: 75px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
+  .titleFill {
+    width: 100%;
   }
-  .reset_tour-text {
-    width: 72px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
+  .licensedContract {
+    width: 100%;
+    justify-content: space-between;
   }
-  .searchOrReset_tour {
-    width: 278px;
-    height: 47px;
-    margin-top: 32px;
+  .contact {
+  }
+  .button_contract + label::before {
+    margin-right: 11px;
+  }
+  .comment_inputFill,
+  .comment_fill,
+  .age_fill {
+    width: 100%;
   }
   .feedback {
     width: 100%;
-    height: 1210px;
-    margin-top: 75px;
-  }
-  .head_feedback {
-    width: 100%;
-    height: 142px;
-  }
-  .header_feedback {
-    width: 318px;
-    height: 76px;
-    font-size: 34px;
-    line-height: 112%;
-    letter-spacing: 0.02em;
+    height: 1173px;
+    margin-left: 0;
   }
   .feedback_people {
-    width: 318px;
-    height: 1018px;
-    margin-top: 50px;
+    width: 89.7%;
+    height: 841px;
   }
   .feedback_size {
-    padding: 20px;
+    width: 49%;
+    height: 841px;
+  }
 
-    width: 318px;
-    height: 408px;
-    border-radius: 20px;
-  }
-  .feedback_text {
-    width: 270px;
-    font-size: 16px;
-    line-height: 144%;
-  }
-  .feedback_people1 {
-    height: 408px;
-  }
-  .feedback_people2 {
-    height: 592px;
-  }
   .feedback_infoName {
-    padding: 0;
-    width: 278px;
-    height: 115px;
+    width: 100%;
   }
   .feedback_nameOrTour {
-    width: 203px;
-    height: 59px;
-  }
-  .feedback_name {
-    width: 203px;
-    height: 28px;
-    font-size: 23px;
-    line-height: 120%;
-
-    letter-spacing: 0.04em;
-  }
-  .feedback_tour {
-    width: 203px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
+    width: 200px;
+    height: 77px;
   }
   .foto_travel {
-    width: 360px;
-    height: 558px;
-    margin-top: 75px;
+    width: 100%;
+    height: 1222px;
   }
-  .foto_travel-head {
-    width: 360px;
-    height: 142px;
-  }
-  .foto_travel-all {
-    width: calc(100%-42px);
-    height: 366px;
-    margin-top: 50px;
-  }
-  .foto_tour3,
-  .foto_tour6,
-  .foto_tour12 {
+  .foto_tour2,
+  .foto_tour7,
+  .foto_tour13 {
     display: none;
   }
+
   .size_row1 {
-    width: 150px;
-    height: 110px;
-    border-radius: 20px;
+    width: 32%;
   }
   .size_row2 {
-    width: 99.33px;
-    height: 110px;
-    border-radius: 20px;
+    width: 23.5%;
   }
-  .foto_tour11 {
-    width: 155px;
-    background-image: url(./image/image\ 11_mobile.png);
-  }
-  .foto_tour10 {
-    width: 155px;
-    background-image: url(./image/image\ 10_mobile.png);
-  }
-  .foto_tour9 {
-    background-image: url(./image/image\ 9_mobile.png);
-  }
-  .foto_tour8 {
-    background-image: url(./image/image\ 8_mobile.png);
+  .foto_travel-all {
+    width: 100%;
+    padding: 0px 20px;
   }
   .travel_stories {
-    width: 360px;
-    height: 1597px;
-    margin-top: 75px;
-  }
-  .travel_stories-head {
-    width: 361px;
-    height: 142px;
+    width: 100%;
+    margin-left: 0;
   }
   .travel_stories-body {
-    width: 318px;
-    height: 1405px;
-    margin-top: 50px;
+    width: 89.7%;
   }
   .size_stories {
-    width: 318px;
-    height: 455px;
-    padding: 30px 30px 39px 30px;
-
-    border-radius: 20px;
-  }
-  .stories_foto-header {
-    width: 153px;
-    height: 56px;
-    font-size: 23px;
-    line-height: 120%;
-    letter-spacing: 0.06em;
-  }
-  .stories_foto-slogan {
-    width: 263px;
-    height: 230px;
-    font-size: 16px;
-    line-height: 143%;
-    margin-top: 20px;
-  }
-  .travel_stories-top {
-    padding: 0;
-  }
-  .travel_stories-bottom {
-    width: 123px;
-    height: 80px;
-    margin: 0;
-    padding: 0;
-  }
-  .stories_foto-slogan ul {
-    margin-left: 22px;
-    margin-top: 24px;
-  }
-  .li_store {
-    font-size: 16px;
-    line-height: 142%;
-    padding-left: 2px;
-  }
-  li::marker {
-    font-size: 10px;
-  }
-  .social_network-picture1,
-  .social_network-picture2,
-  .social_network-picture3 {
-    display: none;
-  }
-  .expand1 {
-    font-size: 16px;
-    line-height: 142%;
-    margin-top: 72px;
-  }
-  .travel_stories2,
-  .travel_stories3 {
-    margin-top: 20px;
+    width: 100%;
   }
   .contact_yourTour {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    margin-top: 75px;
-    justify-content: center;
-    width: 360px;
-    height: 285px;
+    width: 100%;
+    margin-top: 133px;
   }
   .contact-tour {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-content: space-between;
-    margin: 0;
-    width: 360px;
-    height: 370px;
-    flex-wrap: wrap;
+    width: 771px;
   }
-  .contact_yourTour-foto {
-    width: 130px;
-    height: 133px;
-    background-image: url(./image/contact_mobile.png);
-  }
-  .contact {
-    width: 291px;
-    height: 122px;
-
-    margin: 0;
-  }
-  .contact_slogan {
-    width: 291px;
-    height: 56px;
-    font-size: 23px;
-    line-height: 120%;
-    text-align: center;
-    letter-spacing: 1.3px;
-  }
-  .contact_mail {
-    width: 293px;
-    height: 46px;
-    font-size: 16px;
-    line-height: 142%;
-    text-align: center;
-    letter-spacing: 0.2px;
+  .black_text {
+    padding: 0;
   }
   footer {
-    padding: 21px;
-
-    width: 360px;
-    height: 85px;
+    width: 100%;
+  }
+  .wrapper {
+    height: 9785px;
   }
   .social_network {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    width: 318px;
-    height: 85px;
-  }
-  .slogan_social {
-    width: 178px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
-    margin-top: 13px;
+    width: 89.7%;
   }
   .social_network-icon {
-    text-align: center;
-    width: 300px;
-    height: 23px;
-    margin: 0;
-    margin-top: 8px;
+    margin-left: 287px;
   }
-  .social_inst {
-    width: 97px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
-    margin-right: 17px;
-  }
-  .social_inst p {
-    width: 72px;
-    height: 23px;
-  }
-
-  .icon_inst {
-    background: url(./image/inst_mobile.svg);
-    width: 11px;
-    height: 12px;
-    margin-right: 7px;
-  }
-  .social_face {
-    width: 92px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
-    margin-right: 8px;
-  }
-  .social_face p {
-    width: 67px;
-    height: 23px;
-  }
-  .icon_face {
-    background: url(./image/face_mobile.svg);
-    margin-right: 7px;
-    width: 7px;
-    height: 14px;
-  }
-  .social_vk {
-    width: 95px;
-    height: 23px;
-    font-size: 16px;
-    line-height: 142%;
-  }
-  .social_vk p {
-    width: 70px;
-    height: 23px;
-  }
-  .icon_vk {
-    background: url(./image/vk_mobile.svg);
-    margin-right: 7px;
-    width: 16px;
-    height: 10px;
+  .feedback_tour {
+    width: 100%;
   }
 }
