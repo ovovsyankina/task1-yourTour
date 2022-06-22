@@ -1384,54 +1384,14 @@ li::marker {
   .foto_tour13 {
     display: none;
   }
-  .foto_tour1 {
-    background: url(./image/foto_tour1_1024.png);
-  }
-  .foto_tour3 {
-    background: url(./image/foto_tour3_1024.png);
-  }
-  .foto_tour4 {
-    background: url(./image/foto_tour4_1024.png);
-  }
-  .foto_tour8 {
-    background: url(./image/foto_tour8_1024.png);
-  }
-  .foto_tour9 {
-    background: url(./image/foto_tour9_1024.png);
-  }
-  .foto_tour10 {
-    background: url(./image/foto_tour10_1024.png);
-  }
+
   .size_row1 {
     width: 32%;
   }
   .size_row2 {
     width: 23.5%;
   }
-  .travel_stories1 {
-    background: linear-gradient(
-        270deg,
-        rgba(0, 0, 0, 0) 0.01%,
-        rgba(0, 0, 0, 0.2) 100%
-      ),
-      url(./image/story1_1024.png);
-  }
-  .travel_stories2 {
-    background: linear-gradient(
-        270deg,
-        rgba(0, 0, 0, 0) 0.01%,
-        rgba(0, 0, 0, 0.2) 100%
-      ),
-      url(./image/story2_1024.png);
-  }
-  .travel_stories3 {
-    background: linear-gradient(
-        270deg,
-        rgba(0, 0, 0, 0) 0.01%,
-        rgba(0, 0, 0, 0.2) 100%
-      ),
-      url(./image/story3_1024.png);
-  }
+
   .foto_travel-all {
     width: 100%;
     padding: 0px 20px;
@@ -1500,6 +1460,24 @@ li::marker {
   border-bottom: 1px solid #1b1f2b;
 }
 @media screen and (max-width: 1024px) {
+  .foto_tour1 {
+    background: url(./image/foto_tour1_1024.png);
+  }
+  .foto_tour3 {
+    background: url(./image/foto_tour3_1024.png);
+  }
+  .foto_tour4 {
+    background: url(./image/foto_tour4_1024.png);
+  }
+  .foto_tour8 {
+    background: url(./image/foto_tour8_1024.png);
+  }
+  .foto_tour9 {
+    background: url(./image/foto_tour9_1024.png);
+  }
+  .foto_tour10 {
+    background: url(./image/foto_tour10_1024.png);
+  }
   .tour2 {
     background: linear-gradient(
         360deg,
@@ -1535,5 +1513,29 @@ li::marker {
         rgba(0, 0, 0, 0.5) 100%
       ),
       url(./image/tour6_1024.png);
+  }
+  .travel_stories1 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story1_1024.png);
+  }
+  .travel_stories2 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story2_1024.png);
+  }
+  .travel_stories3 {
+    background: linear-gradient(
+        270deg,
+        rgba(0, 0, 0, 0) 0.01%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      url(./image/story3_1024.png);
   }
 }
