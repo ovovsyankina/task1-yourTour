@@ -34,92 +34,90 @@
   .sizeCard:hover .expand {
     padding: 0;
     border: none;
-    width: auto;
-    height: auto;
+    width: 159px;
+    height: 28px;
+
+    margin-top: 320px;
     background: none;
     border-radius: none;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .size_stories:hover .expand1 {
     padding: 0;
     border: none;
-    width: auto;
-    height: auto;
+    width: 159px;
+    height: 28px;
     background: none;
     border-radius: none;
     margin-left: auto;
   }
+  .fixed_menu .nav_item1:hover,
+  .fixed_menu .nav_item2:hover,
+  .fixed_menu .nav_item3:hover,
+  .fixed_menu .nav_item4:hover,
+  .fixed_menu .phone:hover {
+    border-bottom: none;
+  }
 
   .inputFill:hover,
-  .comment_inputFill:hover {
-    background: none;
-    border: none;
-  }
+  .comment_inputFill:hover,
   .inputFill:focus,
   .comment_inputFill:focus {
-    outline: none;
-    background: #f4f0e9;
-    border: none;
+    background: #f9f7f4;
+    border: 1px solid #f4f0e9;
   }
-  .search_tour:hover {
-    background: #3b7e7b;
-    border: #3b7e7b;
-    cursor: pointer;
-  }
-  .reset_tour:hover {
-    background: #f1f3f2;
-    border: #f1f3f2;
-    cursor: pointer;
-  }
+
   .black_text-contract:hover,
   .black_text-email:hover {
-    border-bottom: 1px solid black;
-    cursor: pointer;
+    border-bottom: none;
   }
-  .searchTour-button:hover {
-    background: #efa501;
-    border: #efa501;
-    cursor: pointer;
-  }
-  .searchTour-button:hover .search {
-    color: white;
-  }
+
   .sizeCard .expand:active {
-    border: 1px solid #efa501;
-    background: #efa501;
+    border: none;
+    background: none;
+  }
+  .sizeCard:hover {
+    transform: scale(1);
+    cursor: pointer;
+  }
+  .size_stories:hover {
+    transform: scale(1);
   }
   .size_stories .expand1:active {
-    border: 1px solid #efa501;
-    background: #efa501;
+    border: none;
+    background: none;
   }
-  .search_tour:active {
-    background: #627f7e;
-    border: #627f7e;
+  .search_tour:active,
+  .search_tour:hover {
+    border: 3px solid #286562;
+    background: #286562;
   }
-  .reset_tour:active {
-    background: #d9dfdb;
-    border: #d9dfdb;
+  .reset_tour:active,
+  .reset_tour:hover {
+    border: 3px solid #e0f0e5;
+    background: #e0f0e5;
   }
   .social_instagram:active,
   .social_facebook:active,
   .social_YouTube:active,
   .social_VK:active {
-    color: #efa501;
-    border-bottom: 1px solid #efa501;
+    color: white;
+    border-bottom: none;
   }
   .black_text-contract:active,
   .black_text-email:active {
-    border-bottom: 1px solid #286562;
-    color: #286562;
+    border-bottom: none;
+    color: #1b1f2b;
   }
-  .searchTour-button:active {
-    background: #f8e6be;
-    border: #f8e6be;
-    cursor: pointer;
+  .searchTour-button:active,
+  .searchTour-button:hover {
+    background: white;
+    border: 1px solid white;
   }
-  .searchTour-button:active .search {
-    color: black;
+  .searchTour-button:active .search,
+  .searchTour-button:hover .search {
+    color: #1b1f2b;
   }
 }
 @media screen and (max-width: 951px) {
@@ -139,6 +137,10 @@
   .expand {
     margin-top: 277px;
   }
+
+  .sizeCard:hover .expand {
+    margin-top: 277px;
+  }
 }
 @media screen and (max-width: 810px) {
   .nav-links {
@@ -155,6 +157,9 @@
     height: 1300px;
   }
   .expand {
+    margin-top: 180px;
+  }
+  .sizeCard:hover .expand {
     margin-top: 180px;
   }
   .contract-text {
@@ -471,6 +476,9 @@
   }
   .expand {
     margin-top: 179px;
+  }
+  .sizeCard:hover .expand {
+    margin-top: 177px;
   }
   .detailed {
     width: 84px;

@@ -238,6 +238,7 @@ footer {
   padding: 50px;
   flex-direction: column;
   justify-content: space-between;
+  align-content: space-between;
   align-items: flex-start;
   border-radius: 50px;
 }
@@ -421,7 +422,7 @@ footer {
   border: 1px solid #f4f0e9;
   border-radius: 10px;
 
-  color: black;
+  color: #1b1f2b;
 }
 
 .email_fill {
@@ -531,7 +532,7 @@ footer {
   width: 22px;
   height: 22px;
   flex-shrink: 0;
-  border: 2px solid black;
+  border: 2px solid #1b1f2b;
   border-radius: 50%;
   margin-right: 11px;
   background-repeat: no-repeat;
@@ -540,7 +541,7 @@ footer {
 }
 
 .button_age:checked + label::before {
-  border-color: black;
+  border-color: #1b1f2b;
   background-color: white;
   background-image: url(./image/Ellipse\ 2.svg);
 }
@@ -596,7 +597,7 @@ footer {
   height: 22px;
   flex-shrink: 0;
   flex-grow: 0;
-  border: 2px solid black;
+  border: 2px solid #1b1f2b;
   border-radius: 0.25em;
   margin-right: 19px;
   background-repeat: no-repeat;
@@ -605,16 +606,16 @@ footer {
 }
 
 .button_contract:checked + label::before {
-  border-color: black;
+  border-color: #1b1f2b;
   background-color: white;
   background-image: url(./image/check.svg);
 }
 .black_text-email {
-  color: black;
+  color: #1b1f2b;
   font-weight: 600;
 }
 .black_text-contract {
-  color: black;
+  color: #1b1f2b;
   font-weight: 600;
 }
 .searchOrReset_tour {
@@ -1063,7 +1064,7 @@ li::marker {
   justify-content: space-between;
   align-content: space-between;
   align-items: center;
-  color: black;
+  color: #1b1f2b;
   width: 419px;
   height: 28px;
   margin-left: 537px;
@@ -1093,7 +1094,7 @@ li::marker {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: black;
+  color: #1b1f2b;
   font-weight: 600;
   width: 126px;
   height: 28px;
@@ -1115,7 +1116,7 @@ li::marker {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: black;
+  color: #1b1f2b;
   font-weight: 600;
   width: 120px;
   height: 28px;
@@ -1125,7 +1126,7 @@ li::marker {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: black;
+  color: #1b1f2b;
   font-weight: 600;
   width: 123px;
   height: 28px;
@@ -1149,7 +1150,7 @@ li::marker {
 .tour_elem3:hover,
 .tour_elem4:hover,
 .tour_elem5:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #1b1f2b;
   cursor: pointer;
 }
 .sizeCard:hover .expand {
@@ -1208,7 +1209,7 @@ li::marker {
 }
 .black_text-contract:hover,
 .black_text-email:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #1b1f2b;
   cursor: pointer;
 }
 .searchTour-button:hover {
@@ -1253,7 +1254,7 @@ li::marker {
   cursor: pointer;
 }
 .searchTour-button:active .search {
-  color: black;
+  color: #1b1f2b;
 }
 @media screen and (max-width: 1860px) {
   .size_row1 {
@@ -1498,14 +1499,21 @@ li::marker {
   background-image: url(./image/logo_fix-menu.svg);
 }
 .fixed_menu .nav-links {
-  color: black;
+  color: #1b1f2b;
   font-weight: 600;
   font-size: 20px;
   line-height: 142%;
 }
 .fixed_menu .phone {
-  color: black;
+  color: #1b1f2b;
   font-weight: 600;
   font-size: 20px;
   line-height: 142%;
+}
+.fixed_menu .nav_item1:hover,
+.fixed_menu .nav_item2:hover,
+.fixed_menu .nav_item3:hover,
+.fixed_menu .nav_item4:hover,
+.fixed_menu .phone:hover {
+  border-bottom: 1px solid #1b1f2b;
 }
