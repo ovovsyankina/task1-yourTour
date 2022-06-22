@@ -1345,42 +1345,7 @@ li::marker {
     width: 100%;
     justify-content: space-between;
   }
-  .tour2 {
-    background: linear-gradient(
-        360deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0.06) 48.44%,
-        rgba(0, 0, 0, 0.5) 100%
-      ),
-      url(./image/tour2_1024.png);
-  }
-  .tour3 {
-    background: linear-gradient(
-        360deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0.06) 48.44%,
-        rgba(0, 0, 0, 0.5) 100%
-      ),
-      url(./image/tour3_1024.png);
-  }
-  .tour5 {
-    background: linear-gradient(
-        360deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0.06) 48.44%,
-        rgba(0, 0, 0, 0.5) 100%
-      ),
-      url(./image/tour5_1024.png);
-  }
-  .tour6 {
-    background: linear-gradient(
-        360deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0.06) 48.44%,
-        rgba(0, 0, 0, 0.5) 100%
-      ),
-      url(./image/tour6_1024.png);
-  }
+
   .button_contract + label::before {
     margin-right: 11px;
   }
@@ -1419,7 +1384,24 @@ li::marker {
   .foto_tour13 {
     display: none;
   }
-
+  .foto_tour1 {
+    background: url(./image/foto_tour1_1024.png);
+  }
+  .foto_tour3 {
+    background: url(./image/foto_tour3_1024.png);
+  }
+  .foto_tour4 {
+    background: url(./image/foto_tour4_1024.png);
+  }
+  .foto_tour8 {
+    background: url(./image/foto_tour8_1024.png);
+  }
+  .foto_tour9 {
+    background: url(./image/foto_tour9_1024.png);
+  }
+  .foto_tour10 {
+    background: url(./image/foto_tour10_1024.png);
+  }
   .size_row1 {
     width: 32%;
   }
@@ -1516,4 +1498,42 @@ li::marker {
 .fixed_menu .nav_item4:hover,
 .fixed_menu .phone:hover {
   border-bottom: 1px solid #1b1f2b;
+}
+@media screen and (max-width: 1024px) {
+  .tour2 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour2_1024.png);
+  }
+  .tour3 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour3_1024.png);
+  }
+  .tour5 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour5_1024.png);
+  }
+  .tour6 {
+    background: linear-gradient(
+        360deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.06) 48.44%,
+        rgba(0, 0, 0, 0.5) 100%
+      ),
+      url(./image/tour6_1024.png);
+  }
 }

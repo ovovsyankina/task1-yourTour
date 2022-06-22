@@ -777,6 +777,12 @@
     height: 110px;
     border-radius: 20px;
   }
+  .foto_tour1 {
+    background-image: url(./image/foto_tour1_360.png);
+  }
+  .foto_tour4 {
+    background-image: url(./image/foto_tour4_360.png);
+  }
   .foto_tour11 {
     width: 155px;
     background-image: url(./image/image\ 11_mobile.png);
