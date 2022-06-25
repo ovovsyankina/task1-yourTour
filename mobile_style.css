@@ -46,9 +46,9 @@
   .size_stories:hover .expand1 {
     padding: 0;
     border: none;
-    width: 199px;
+    width: 159px;
     height: 42px;
-    margin-left: 21px;
+    margin-left: 0;
     background: none;
     border-radius: none;
   }
@@ -232,9 +232,7 @@
   .head-slogan {
     font-size: 76px;
   }
-  .header_feedback {
-    width: 500px;
-  }
+
   .foto_travel-head {
     width: 500px;
   }
