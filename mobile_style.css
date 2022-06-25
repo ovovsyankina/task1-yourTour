@@ -46,11 +46,11 @@
   .size_stories:hover .expand1 {
     padding: 0;
     border: none;
-    width: 159px;
-    height: 28px;
+    width: 199px;
+    height: 42px;
+    margin-left: 21px;
     background: none;
     border-radius: none;
-    margin-left: auto;
   }
   .fixed_menu .nav_item1:hover,
   .fixed_menu .nav_item2:hover,
@@ -65,7 +65,7 @@
   .comment_inputFill:hover,
   .inputFill:focus,
   .comment_inputFill:focus {
-    background: #f9f7f4;
+    background-color: #f9f7f4;
     border: 1px solid #f4f0e9;
   }
 
@@ -217,7 +217,7 @@
     font-size: 23px;
     line-height: 120%;
     text-align: center;
-    letter-spacing: 1.3px;
+    letter-spacing: 0.04em;
   }
   .contact_mail {
     width: 293px;
@@ -225,7 +225,7 @@
     font-size: 16px;
     line-height: 142%;
     text-align: center;
-    letter-spacing: 0.2px;
+    letter-spacing: 0;
   }
 }
 @media screen and (max-width: 750px) {
@@ -483,7 +483,7 @@
     line-height: 120%;
     width: 268px;
     margin-bottom: 14px;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
   }
   .PriseTour {
     font-size: 16px;
@@ -629,21 +629,41 @@
     height: 54px;
   }
   .approval {
-    font-size: 16px;
-    line-height: 142%;
+    width: 20px;
+    height: 20px;
   }
   .age_button {
     width: 139px;
     height: 23px;
-    margin: 0;
+    margin-top: 2px;
   }
-  .button_age + label::before {
-    width: 16px;
-    height: 16px;
+  .yes_text,
+  .no_text {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .yes_age {
+    height: 22px;
+  }
+  .no_age {
+    margin-left: 30px;
+    height: 22px;
   }
 
-  .button_age:checked + label::before {
-    background-image: url(./image/Ellipse\ 2_mobile.svg);
+  .button_age + label::before {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 21px;
+    background-image: url(./image/Ellipse_radio_mobile.svg);
+  }
+
+  .button_age:checked + label::after {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    background-image: url(./image/radiobutton_mobile.svg);
   }
   .licensedContract {
     width: 278px;
@@ -660,7 +680,7 @@
   .button_contract + label::before {
     width: 16px;
     height: 16px;
-    margin-bottom: 45px;
+    margin-bottom: 48px;
   }
 
   .button_contract:checked + label::before {
@@ -677,8 +697,7 @@
 
     font-size: 16px;
     line-height: 142%;
-    margin-top: 4px;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.01px;
   }
   .search_tour,
   .reset_tour {
@@ -700,7 +719,7 @@
   .searchOrReset_tour {
     width: 278px;
     height: 47px;
-    margin-top: 32px;
+    margin-top: 30px;
   }
   .feedback {
     width: 100%;
@@ -840,7 +859,7 @@
     height: 56px;
     font-size: 23px;
     line-height: 120%;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
   }
   .stories_foto-slogan {
     width: 263px;

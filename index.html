@@ -10,6 +10,11 @@
       name="keywords"
       content="тур, идальные путешествия, горы, свой тур, фотографии тура"
     />
+    <link
+      rel="icon"
+      href="./image/favicon/contact_mobile.ico"
+      type="image/x-icon"
+    />
     <title>YourTour</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="fonts/font.css" />
@@ -137,7 +142,7 @@
               обучения кадров
             </p>
           </div>
-          <div class="windowFill">
+          <form class="windowFill">
             <div class="fildsInput">
               <div class="form name_fill">
                 <label class="titleFill p-normal">Имя</label>
@@ -167,31 +172,24 @@
                 <label class="titleFill p-normal">Телефон</label>
                 <input
                   class="inputFill p-normal"
-                  type="tel"
+                  id="phone"
+                  type="number"
                   placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
                 />
               </div>
 
               <div class="form dateFrom_fill">
                 <label class="titleFill p-normal">Дата от</label>
-                <input
-                  class="inputFill p-normal"
-                  type="text"
-                  placeholder="ДД.ММ.ГГГГ"
-                />
+                <input type="date" class="inputFill p-normal date" required />
               </div>
               <div class="form dateBefore_fill">
                 <label class="titleFill p-normal">Дата до</label>
-                <input
-                  class="inputFill p-normal"
-                  type="text"
-                  placeholder="ДД.ММ.ГГГГ"
-                />
+                <input type="date" class="inputFill p-normal date" required />
               </div>
             </div>
             <div class="comment_fill">
               <label class="titleFill p-normal">Комментарий</label>
-              <input class="comment_inputFill p-normal" type="text" />
+              <textarea class="comment_inputFill p-normal"></textarea>
             </div>
             <div class="age_fill">
               <div class="titleFill p-normal">Вам есть 18 лет?</div>
@@ -199,12 +197,14 @@
               <div class="age_button">
                 <div class="yes_age">
                   <input class="button_age" name="age" type="radio" id="yes" />
-                  <label for="yes" class="approval p-normal">Да</label>
+                  <label for="yes" class="approval"></label>
+                  <div class="yes_text p-normal">Да</div>
                 </div>
 
                 <div class="no_age">
                   <input class="button_age" name="age" type="radio" id="no" />
-                  <label for="no" class="approval p-normal">Нет</label>
+                  <label for="no" class="approval"></label>
+                  <p class="no_text p-normal">Нет</p>
                 </div>
               </div>
             </div>
@@ -225,14 +225,14 @@
               >
             </div>
             <div class="searchOrReset_tour">
-              <button class="search_tour">
+              <button class="search_tour" type="submit">
                 <p class="search_tour-text p-normal">Найти тур</p>
               </button>
-              <button class="reset_tour">
+              <button class="reset_tour" type="reset">
                 <p class="reset_tour-text p-normal">Сбросить</p>
               </button>
             </div>
-          </div>
+          </form>
         </div>
 
         <div class="feedback">

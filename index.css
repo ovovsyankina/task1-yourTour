@@ -67,8 +67,8 @@ footer {
 }
 
 .logo_fix {
-  width: 181.84px;
-  height: 30.24px;
+  width: 182px;
+  height: 32px;
   background-image: url(./image/logo_fix-menu.svg);
 }
 .nav-links_fix {
@@ -80,13 +80,11 @@ footer {
   width: 468px;
   height: 28px;
   color: #1b1f2b;
-  font-weight: 600;
   font-size: 20px;
   line-height: 142%;
 }
 .phone_fix {
   color: #1b1f2b;
-  font-weight: 600;
   font-size: 20px;
   line-height: 142%;
 }
@@ -145,7 +143,7 @@ footer {
   height: 28px;
 }
 .p-normal {
-  font-family: "Roboto";
+  font-family: "Roboto-Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -154,7 +152,7 @@ footer {
   color: white;
 }
 .p-small {
-  font-family: "Roboto";
+  font-family: "Roboto-Regular";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -172,7 +170,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
-  line-height: 110%;
+  line-height: 109%;
 }
 .h2 {
   font-family: "Roboto-Bold";
@@ -187,7 +185,7 @@ footer {
 .h3 {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 35px;
   line-height: 122%;
 }
@@ -212,7 +210,6 @@ footer {
   width: 600px;
   height: 56px;
   text-align: center;
-  letter-spacing: 0.2px;
   margin-bottom: 50px;
 }
 .searchTour-button {
@@ -228,7 +225,6 @@ footer {
   color: #1b1f2b;
   justify-content: center;
   letter-spacing: -0.01em;
-  font-weight: 600;
 }
 
 .windowSelectTour {
@@ -370,7 +366,6 @@ footer {
   align-items: flex-start;
 }
 .nameTour {
-  letter-spacing: 0.5px;
   color: #ffffff;
   margin-bottom: 17px;
   width: 240px;
@@ -385,7 +380,7 @@ footer {
   flex-direction: row;
   align-items: center;
   color: white;
-  margin-top: 279px;
+  margin-top: 277px;
 }
 .detailed {
   width: 120px;
@@ -445,6 +440,25 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.date:invalid {
+  color: #a6a6a6;
+  letter-spacing: -0.04em;
+}
+.date {
+  color: #1b1f2b;
+}
+.date::-webkit-datetime-edit-month-field,
+.date::-webkit-datetime-edit-day-field,
+.date::-webkit-datetime-edit-year-field {
+  text-transform: uppercase;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.date::-webkit-calendar-picker-indicator {
+  margin-right: 24px;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -456,21 +470,16 @@ footer {
 }
 .inputFill {
   box-sizing: border-box;
-
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-left: 19px;
-  letter-spacing: 0.2px;
-  font-weight: 600;
   width: 500px;
   height: 68px;
-
   background: #f9f7f4;
 
   border: 1px solid #f4f0e9;
   border-radius: 10px;
-
   color: #1b1f2b;
 }
 
@@ -490,18 +499,14 @@ footer {
 .titleFill {
   width: 500px;
   height: 28px;
-  font-weight: 700;
+  letter-spacing: 0;
   margin-bottom: 7px;
   color: #1b1f2b;
-
-  letter-spacing: 0.2px;
 }
 ::placeholder {
   height: 28px;
 
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
   font-size: 20px;
   line-height: 142%;
 
@@ -514,7 +519,6 @@ footer {
 
 .dropdown {
   color: #1b1f2b;
-  font-weight: 400;
 
   appearance: none;
   background: url(./image/check_mark.svg) no-repeat right center;
@@ -533,6 +537,10 @@ footer {
   height: 188px;
 }
 .comment_inputFill {
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #1b1f2b;
+  resize: none;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -556,44 +564,43 @@ footer {
 }
 .age_button {
   display: flex;
-  margin-top: 1px;
-  margin-left: 1px;
+  margin-top: 2px;
+  height: 32px;
 }
 
 .approval {
-  width: 35px;
-  height: 28px;
-  font-weight: 600;
+  position: relative;
+  display: flex;
+  width: 26px;
+  height: 26px;
   color: #1b1f2b;
 }
 
 .button_age {
   display: none;
 }
-.button_age + label {
-  display: inline-flex;
-  align-items: center;
-  user-select: none;
-}
 .button_age + label::before {
-  content: "";
   display: inline-block;
-  width: 22px;
-  height: 22px;
-  flex-shrink: 0;
-  border: 2px solid #1b1f2b;
-  border-radius: 50%;
-  margin-right: 11px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 50% 50%;
+  content: "";
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  min-height: 26px;
+  background-image: url(./image/Ellipse_radio.svg);
+}
+.button_age:checked + label::after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  content: "";
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  min-height: 26px;
+  background-image: url(./image/radiobutton.svg);
 }
 
-.button_age:checked + label::before {
-  border-color: #1b1f2b;
-  background-color: white;
-  background-image: url(./image/Ellipse\ 2.svg);
-}
 .yes_age {
   display: flex;
   flex-direction: row;
@@ -606,9 +613,19 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 30px;
+
   width: 72px;
   height: 28px;
+
+  margin-left: 31px;
+}
+.yes_text {
+  color: #1b1f2b;
+  margin-left: 11px;
+}
+.no_text {
+  color: #1b1f2b;
+  margin-left: 11px;
 }
 .licensedContract {
   display: flex;
@@ -631,7 +648,7 @@ footer {
 .contract-text {
   width: 509px;
   height: 24px;
-
+  letter-spacing: -0.01em;
   color: #a6a6a6;
 }
 .button_contract + label {
@@ -657,15 +674,17 @@ footer {
 .button_contract:checked + label::before {
   border-color: #1b1f2b;
   background-color: white;
-  background-image: url(./image/check.svg);
+  background-image: url(./image/check_dogovor.svg);
+  background-size: 70%;
+  background-position: center;
 }
 .black_text-email {
   color: #1b1f2b;
-  font-weight: 600;
+  letter-spacing: 0;
 }
 .black_text-contract {
   color: #1b1f2b;
-  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 .searchOrReset_tour {
   display: flex;
@@ -706,13 +725,11 @@ footer {
   width: 94px;
   height: 28px;
   color: #ffffff;
-  font-weight: 500;
 }
 .reset_tour-text {
   width: 90px;
   height: 28px;
   color: #286562;
-  font-weight: 500;
 }
 .feedback {
   display: flex;
@@ -779,9 +796,7 @@ footer {
 
   color: #a6a6a6;
 }
-.feedback_name {
-  font-weight: 900;
-}
+
 .feedback_fotoGirl {
   width: 75px;
   height: 75px;
@@ -810,7 +825,6 @@ footer {
   margin-top: 30px;
   color: #a6a6a6;
   text-align: center;
-  letter-spacing: 0.2px;
 }
 .foto_travel-head {
   display: flex;
@@ -972,18 +986,17 @@ footer {
   width: 100%;
   height: 43px;
   color: #ffffff;
-  letter-spacing: 0.4px;
 }
 .stories_foto-slogan {
   width: 554px;
   height: 224px;
   color: #ffffff;
-  margin-top: 35px;
-  letter-spacing: 0.2px;
+  margin-top: 37px;
+  font-style: normal;
 }
 .stories_foto-slogan ul {
   margin-left: 27px;
-  margin-top: 26px;
+  margin-top: 27px;
 }
 .li_store {
   padding-left: 2px;
@@ -1081,15 +1094,12 @@ li::marker {
   width: 371px;
   height: 86px;
   color: #1b1f2b;
-
-  letter-spacing: 0.5px;
 }
 .contact_mail {
   margin-top: 20px;
   width: 364px;
   height: 56px;
   color: #a6a6a6;
-  letter-spacing: 0.2px;
 }
 .social_network {
   display: flex;
@@ -1105,7 +1115,6 @@ li::marker {
   width: 222px;
   height: 28px;
   color: #a6a6a6;
-  letter-spacing: 0.2px;
 }
 .social_network-icon {
   display: flex;
@@ -1144,7 +1153,6 @@ li::marker {
   flex-direction: row;
   align-items: center;
   color: #1b1f2b;
-  font-weight: 600;
   width: 126px;
   height: 28px;
   margin-right: 28px;
@@ -1166,7 +1174,6 @@ li::marker {
   flex-direction: row;
   align-items: center;
   color: #1b1f2b;
-  font-weight: 600;
   width: 120px;
   height: 28px;
   margin-right: 16px;
@@ -1176,9 +1183,12 @@ li::marker {
   flex-direction: row;
   align-items: center;
   color: #1b1f2b;
-  font-weight: 600;
   width: 123px;
   height: 28px;
+}
+.logo:hover,
+.logo_fix:hover {
+  cursor: pointer;
 }
 .nav_item1:hover,
 .nav_item2:hover,
@@ -1225,13 +1235,13 @@ li::marker {
 }
 
 .sizeCard:hover {
-  transition: all 300ms ease-in;
-  transform: scale(1.2);
+  transition: all 300ms ease;
+  transform: scale(1.1);
   cursor: pointer;
 }
 .size_stories:hover {
-  transition: all 300ms ease-in;
-  transform: scale(1.2);
+  transition: all 300ms ease;
+  transform: scale(1.1);
   cursor: pointer;
 }
 .inputFill:hover,

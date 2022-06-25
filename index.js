@@ -6,3 +6,6 @@ document.addEventListener("scroll", function () {
     header.classList.remove("fixed_menu");
   }
 });
+var phoneMask = IMask(document.getElementById("phone"), {
+  mask: "+{7}(000)000-00-00",
+});
