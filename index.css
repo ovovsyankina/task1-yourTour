@@ -286,6 +286,8 @@ footer {
   align-content: space-between;
   align-items: flex-start;
   border-radius: 50px;
+  transition: all 300ms ease-out;
+  transform: scale(1);
 }
 .tour1 {
   background: linear-gradient(
@@ -940,7 +942,8 @@ input::-webkit-inner-spin-button {
   width: 1170px;
   height: 567px;
   background-position: center center;
-
+  transition: all 300ms ease-out;
+  transform: scale(1);
   background-size: cover;
   border-radius: 50px;
 }
@@ -1235,12 +1238,12 @@ li::marker {
 }
 
 .sizeCard:hover {
-  transition: all 300ms ease;
+  transition: 300ms ease;
   transform: scale(1.1);
   cursor: pointer;
 }
 .size_stories:hover {
-  transition: all 300ms ease;
+  transition: 300ms ease;
   transform: scale(1.05);
   cursor: pointer;
 }
