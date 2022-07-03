@@ -1,4 +1,4 @@
-@media screen and (max-width: 1005px) {
+@media screen and (max-width: 1010px) {
   .stories_foto-slogan {
     width: 100%;
   }
@@ -11,7 +11,17 @@
   .social_network-icon {
     margin-left: 0;
   }
-
+  .sizeCard {
+    padding: 45px;
+    width: 48.9%;
+  }
+  .nameTourorPrise {
+    width: 230px;
+    height: 126px;
+  }
+  .expand {
+    margin-top: 277px;
+  }
   .nav_item1:hover,
   .nav_item2:hover,
   .nav_item3:hover,
@@ -120,27 +130,18 @@
   .searchTour-button:hover .search {
     color: #1b1f2b;
   }
+  .sizeCard:hover .expand {
+    margin-top: 277px;
+  }
 }
 @media screen and (max-width: 951px) {
   .windowFill {
     padding: 30px;
   }
-  .capSelectTour {
-    width: 90%;
-  }
+
   .sizeCard {
     padding: 40px;
-  }
-  .nameTourorPrise {
-    width: 230px;
-    height: 126px;
-  }
-  .expand {
-    margin-top: 277px;
-  }
-
-  .sizeCard:hover .expand {
-    margin-top: 277px;
+    width: 48%;
   }
 }
 @media screen and (max-width: 810px) {
@@ -154,12 +155,7 @@
     padding: 35px;
     height: 400px;
   }
-  .windowSelectTour {
-    height: 1500px;
-  }
-  .suggestTour {
-    height: 1300px;
-  }
+
   .expand {
     margin-top: 180px;
   }
@@ -250,14 +246,9 @@
     width: 480px;
   }
 
-  .feedback {
-    height: 1650px;
-    justify-content: space-between;
-    align-content: space-between;
-  }
   .feedback_people {
+    gap: 18px;
     justify-content: center;
-    height: 1400px;
   }
   .feedback_size {
     width: 450px;
@@ -359,7 +350,6 @@
 @media screen and (max-width: 600px) {
   header {
     width: 100%;
-    height: 488px;
   }
   .headBottom {
     width: 100%;
@@ -424,12 +414,9 @@
   }
   .windowSelectTour {
     width: 100%;
-    height: 2172px;
     margin-top: 75px;
   }
   .capSelectTour {
-    width: 360px;
-    height: 124px;
     margin-bottom: 50px;
   }
   .selectTour {
@@ -449,6 +436,16 @@
     font-size: 16px;
     line-height: 142%;
   }
+  .foto_travel-all {
+    gap: 18px;
+  }
+  .foto_tour_card13 {
+    gap: 18px;
+  }
+
+  .foto_tour_card2 {
+    gap: 10px;
+  }
   .tour_elem1,
   .tour_elem2,
   .tour_elem4 {
@@ -463,7 +460,6 @@
   }
   .suggestTour {
     width: 318px;
-    height: 1998px;
   }
   .sizeCard {
     width: 318px;
@@ -494,8 +490,6 @@
     margin-top: 177px;
   }
   .detailed {
-    width: 84px;
-    height: 23px;
     font-size: 16px;
     line-height: 142%;
   }
@@ -505,7 +499,6 @@
   }
   .collectTour {
     width: 100%;
-    height: 1254px;
     margin-top: 75px;
   }
   .tour2 {
@@ -550,8 +543,6 @@
     margin-bottom: 40px;
   }
   .collectTour_header-text {
-    width: 318px;
-    height: 38px;
     font-size: 34px;
     line-height: 112%;
     letter-spacing: 0.02em;
@@ -565,13 +556,10 @@
   }
   .windowFill {
     width: 318px;
-    height: 1110px;
     border-radius: 30px;
     padding: 20px 20px 40px;
   }
-  .fildsInput {
-    height: 594px;
-  }
+
   .form {
     width: 278px;
     height: 74px;
@@ -622,9 +610,7 @@
     height: 132px;
   }
   .age_fill {
-    margin-top: 32px;
-    width: 278px;
-    height: 54px;
+    margin-top: 27px;
   }
   .approval {
     width: 20px;
@@ -664,9 +650,6 @@
     background-image: url(./image/radiobutton_mobile.svg);
   }
   .licensedContract {
-    width: 278px;
-    height: 69px;
-
     margin-top: 30px;
   }
   .contract {
@@ -690,8 +673,6 @@
 
   .contract-text {
     display: block;
-    width: 248px;
-    height: 69px;
 
     font-size: 16px;
     line-height: 142%;
@@ -721,12 +702,10 @@
   }
   .feedback {
     width: 100%;
-    height: 1210px;
     margin-top: 75px;
   }
   .head_feedback {
     width: 100%;
-    height: 142px;
   }
   .header_feedback {
     width: 318px;
@@ -737,7 +716,6 @@
   }
   .feedback_people {
     width: 318px;
-    height: 1018px;
     margin-top: 50px;
   }
   .feedback_size {
@@ -760,12 +738,11 @@
   }
   .feedback_infoName {
     padding: 0;
-    width: 278px;
-    height: 115px;
   }
   .feedback_nameOrTour {
     width: 203px;
     height: 59px;
+    margin-top: 15px;
   }
   .feedback_name {
     width: 203px;
@@ -780,10 +757,10 @@
     height: 23px;
     font-size: 16px;
     line-height: 142%;
+    letter-spacing: -0.01em;
   }
   .foto_travel {
     width: 100%;
-    height: 558px;
     margin-top: 75px;
   }
   .foto_travel-head {
@@ -792,7 +769,6 @@
   }
   .foto_travel-all {
     width: 318px;
-    height: 366px;
     margin-top: 50px;
     padding: 0;
   }
@@ -833,16 +809,11 @@
   }
   .travel_stories {
     width: 100%;
-    height: 1597px;
     margin-top: 75px;
   }
-  .travel_stories-head {
-    width: 360px;
-    height: 142px;
-  }
+
   .travel_stories-body {
     width: 318px;
-    height: 1405px;
     margin-top: 50px;
   }
   .size_stories {
@@ -861,12 +832,12 @@
   }
   .stories_foto-slogan {
     width: 263px;
-    height: 230px;
     font-size: 16px;
     line-height: 143%;
     margin-top: 20px;
   }
   .travel_stories-top {
+    height: 306px;
     padding: 0;
   }
   .travel_stories-bottom {
