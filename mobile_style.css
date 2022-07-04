@@ -165,6 +165,9 @@
   .contract-text {
     font-size: 15px;
   }
+  .elementsTour {
+    width: 650px;
+  }
   .feedback_size {
     padding: 25px;
     height: 800px;

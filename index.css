@@ -530,7 +530,6 @@ input::-webkit-inner-spin-button {
 }
 .age_button {
   display: flex;
-  margin-top: 2px;
   height: 32px;
 }
 
@@ -597,7 +596,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 28px;
+  margin-top: 30px;
 }
 .contract {
   color: #a6a6a6;
@@ -895,7 +894,7 @@ input::-webkit-inner-spin-button {
   margin-top: 50px;
 }
 .travel_stories-top {
-  height: 394px;
+  height: 392px;
   display: flex;
   flex-direction: column;
 }
@@ -1258,9 +1257,6 @@ li::marker {
 
     margin-left: 0;
   }
-  .elementsTour {
-    width: 100%;
-  }
 
   .suggestTour {
     width: 90%;
@@ -1382,7 +1378,7 @@ li::marker {
   }
   .contact_yourTour {
     width: 100%;
-    margin-top: 133px;
+    margin-top: 136px;
   }
   .contact-tour {
     width: 771px;
